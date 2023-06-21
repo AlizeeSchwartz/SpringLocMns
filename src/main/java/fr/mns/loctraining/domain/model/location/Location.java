@@ -2,7 +2,7 @@ package fr.mns.loctraining.domain.model.location;
 
 import fr.mns.loctraining.domain.model.common.BaseEntity;
 import fr.mns.loctraining.domain.model.user.User;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.CreatedDate;

@@ -1,7 +1,7 @@
 package fr.mns.loctraining.domain.model.user;
 
 import fr.mns.loctraining.domain.model.common.BaseEntity;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 

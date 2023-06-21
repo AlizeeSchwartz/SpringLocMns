@@ -1,6 +1,6 @@
 package fr.mns.loctraining.domain.model.common;
 
-import jakarta.persistence.MappedSuperclass;
+import javax.persistence.MappedSuperclass;
 import lombok.Getter;
 import lombok.Setter;
 
