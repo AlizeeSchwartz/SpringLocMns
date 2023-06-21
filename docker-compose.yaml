@@ -1,0 +1,10 @@
+version : '3.8'
+services:
+  spring-loc-alizee :
+    image: image-loc-alizee
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    ports:
+      - 8989:8080
+    extra_hosts:
+      - "dbServer:127.0.0.1"
