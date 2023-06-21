@@ -8,7 +8,7 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.Banner;
 
-@Entity
+@Entity(name = "material")
 @Getter
 @Setter
 

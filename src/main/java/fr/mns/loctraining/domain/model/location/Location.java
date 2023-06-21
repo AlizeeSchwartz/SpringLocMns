@@ -11,7 +11,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.util.Date;
 import java.util.List;
 
-@Entity
+@Entity(name = "location")
 @Getter
 @Setter
 @EntityListeners(AuditingEntityListener.class)

@@ -5,7 +5,7 @@ import javax.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "documentation")
 @Getter
 @Setter
 

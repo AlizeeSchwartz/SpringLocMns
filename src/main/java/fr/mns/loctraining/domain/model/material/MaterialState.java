@@ -6,7 +6,7 @@ import lombok.Setter;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+@Entity(name = "material_state")
 @Getter
 @Setter
 public class MaterialState {

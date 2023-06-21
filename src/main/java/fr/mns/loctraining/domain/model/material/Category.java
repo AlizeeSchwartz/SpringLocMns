@@ -7,7 +7,7 @@ import lombok.Setter;
 
 import java.util.jar.Attributes;
 
-@Entity
+@Entity(name = "category")
 @Getter
 @Setter
 public class Category extends NamedEntity {

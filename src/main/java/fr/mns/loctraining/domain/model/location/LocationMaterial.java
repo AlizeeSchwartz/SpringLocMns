@@ -9,7 +9,7 @@ import javax.persistence.MapsId;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
+@Entity(name = "location_material")
 @Getter
 @Setter
 public class LocationMaterial {
