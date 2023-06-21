@@ -22,5 +22,4 @@ spring:
     activate:
       on-profile: prod
   datasource:
-    url: jdbc:mysql://dbServer:3306/locMnsA
     password: toto
